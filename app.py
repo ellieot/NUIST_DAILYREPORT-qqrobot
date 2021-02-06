@@ -5,7 +5,7 @@ url = "http://119.28.45.248:33649/"
 
 def get_botsession():
     # auth
-    payload = {"authKey":"ResunoonNB"}
+    payload = {"authKey":"YourKey"}
     ret = requests.post(url+"auth", json=payload)
     sess = ret.json()['session']
     # verify
