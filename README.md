@@ -4,3 +4,6 @@
 用法不写了
 
 自动化填报机器人 QQ 976113357
+
+# 缺少crypto库的解决方法：
+pip install pycryptodome
